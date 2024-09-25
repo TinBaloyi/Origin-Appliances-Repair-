@@ -1,0 +1,2 @@
+"use strict";!function(e){var t=document.querySelectorAll(".slider__toggle");if(t){var a=function(t){var a=t.currentTarget,c=a.dataset.action,r=a.parentNode.querySelector(".slick-slider-stage")||a.parentNode.querySelector(".slick-slider");r&&("pause"===c&&(a.dataset.action="play",e(r).slick("slickPause")),"play"===c&&(a.dataset.action="pause",e(r).slick("slickPlay")))};t.forEach((function(e){e.addEventListener("click",a)}))}}(jQuery);
+//# sourceMappingURL=maps/slider.js.map

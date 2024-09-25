@@ -1,0 +1,2 @@
+"use strict";document.addEventListener("readystatechange",(function(e){var c;"complete"===e.target.readyState&&($.cookie("cc_detect_cookies")||(c=jQuery).ajax({url:ajaxurl,type:"GET",headers:{"Cache-control":"max-age=84600, public",Pragma:"cache"},cache:!0,data:{action:"detect_if_accept_cookies_php",acceptCookie:navigator.cookieEnabled,ver:"1.0.0"},success:c.cookie("cc_detect_cookies","true")}))}));
+//# sourceMappingURL=maps/detect-cookies-ip.js.map
