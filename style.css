@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header.cover {
+    background-image: url('background.jpg'); /* Replace with your actual background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.overlay {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent overlay */
+    padding: 40px;
+    width: 100%;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 150px; /* Adjust the logo size */
+    margin-bottom: 20px;
+}
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    button, .call-btn {
+        width: 80%;
+    }
+}
+
+buttons {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 30px;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; 
+}
+button, .call-btn {
+    background-color: #4CAF50; /* Green color for buttons */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px; /* Space between buttons */
+    border-radius: 5px;
+    flex: 1; /* Make buttons flexible */
+    max-width: 200px; /* Optional: Limit max width of buttons */
+}
+.buttons {
+    display: flex; /* Use flexbox for button alignment */
+    gap: 10px; /* Space between buttons */
+}
+button:hover, .call-btn:hover {
+    background-color: #45a049;
+}
+
+.call-btn {
+    display: inline-block;
+}
+.call-to-action {
+    background-color: white; /* Pink background */
+    padding: 20px;
+    border-radius: 8px;
+    display: flex; /* Use flexbox to arrange content */
+    justify-content: space-between; /* Space between left and right */
+    align-items: center; /* Center vertically */
+}
+.call-to-action-content {
+    text-align: left; /* Align text to the left */
+    margin-right: 20px; /* Space between text and buttons */
+    background-color: #ac338a; /* WhatsApp color */
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto;
+}
+
+.call-to-action-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.call-to-action-content i {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 24px; /* Adjust icon size */
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.chat-section {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chat-section a {
+    color: white;
+    text-decoration: none;
+}
+.chat-box {
+    background-color: #25D366; /* WhatsApp color */
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto;
+}
+
+.chat-box a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.chat-box i {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 24px; /* Adjust icon size */
+}
+.services {
+    text-align: center;
+    padding: 20px;
+}
+
+.service-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+}
+
+.service-item p {
+    margin-top: 10px;
+}
+.hero {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.hero img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.guarantee, .rates {
+    text-align: center;
+    padding: 20px;
+}
+.booking-form {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
