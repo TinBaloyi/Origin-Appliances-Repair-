@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(response => {
             if (response.ok) {
-                alert('Your request has been sent successfully!'); // Optional success message
+                alert('Your request has been sent successfully!'); // Just success message without URL
                 form.reset(); // Clear the form fields
             } else {
                 alert('There was a problem with your submission. Please try again.');
