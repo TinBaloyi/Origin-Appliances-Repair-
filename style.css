@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     text-align: center;
     background-image: url('kit.jpeg'); /* Replace with the path to your image */
@@ -11,7 +12,7 @@ header {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed;
     color: white;
-    height:90vh;
+    height: 90vh;
     padding: 40px 20px;
     position: relative;
 }
@@ -24,6 +25,7 @@ header {
 .logo img {
     width: 300px; /* Adjust the width as needed */
 }
+
 .hero {
     text-align: center;
     padding: 40px 20px;
@@ -82,6 +84,7 @@ header {
     justify-content: center;
     margin-top: 130px;
 }
+
 .call-btn, .book-btn {
     background: linear-gradient(to right, #ff9933, #ff3300);
     color: white;
@@ -131,7 +134,6 @@ html, body {
     color: #128C7E; /* Darker WhatsApp green on hover */
 }
 
-
 .chat-box a {
     color: white;
     font-size: 22px;
@@ -167,8 +169,6 @@ html, body {
 .highlight {
     color: yellow; /* Change the color to yellow */
 }
-
-
 
 .work-guarantee-section {
     display: flex;
@@ -206,8 +206,44 @@ html, body {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    header {
+        height: 70vh; /* Adjust header height on smaller screens */
+        padding: 20px 10px; /* Adjust padding */
+    }
+    .logo img {
+        width: 200px; /* Decrease width for mobile */
+    }
+    .call-to-action {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Allow for flexible height */
+        padding: 10px; /* Adjust padding */
+        margin-top: 20px;
+    }
+
+    .cta-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        margin-top: 20px; /* Adjust margin */
+        align-items: center; 
+    }
+
+    .cta-buttons a {
+        margin: 5px 0; /* Space between stacked buttons */
+        width: 100%; /* Make buttons take full width */
+        max-width: 250px; /* Optional: Limit max-width */
+    }
+
+    .services {
+        flex-direction: column; /* Stack service items vertically */
+        align-items: center; /* Center align */
+    }
+
+    .service-item {
+        width: 80%; /* Full width on smaller screens */
+        margin: 10px 0; /* Space between service items */
+    }
+
     .work-guarantee-section {
-        flex-direction: column; /* Stacks text and image vertically on smaller screens */
+        flex-direction: column; /* Stack text and image vertically on smaller screens */
         align-items: center;
     }
 
@@ -219,7 +255,23 @@ html, body {
     .work-guarantee-text {
         padding-right: 0; /* Removes padding on smaller screens */
     }
-} 
+
+    .booking-form {
+        height: auto; /* Allow the booking form to adjust its height */
+        padding: 20px; /* Maintain some padding */
+    }
+
+    .booking-form input,
+    .booking-form textarea {
+        padding: 15px; /* Adjust padding for mobile */
+        font-size: 16px; /* Increase font size for readability */
+    }
+
+    .booking-form button {
+        padding: 12px; /* Adjust button padding */
+        font-size: 18px; /* Increase button font size */
+    }
+}
 
 .booking-form {
     height: 100vh;
@@ -249,13 +301,6 @@ input, textarea {
     color: white; /* White text in inputs */
 }
 
-button {
-    background-image: linear-gradient(to right, #ff6600, #ffcc00); /* Gradient background */
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    cursor: pointer;
-}
 /* Styles for the booking form */
 .booking-form input,
 .booking-form textarea {
@@ -283,16 +328,3 @@ button {
 .booking-form button:hover {
     opacity: 0.9; /* Slightly reduce opacity on hover */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
