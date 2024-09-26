@@ -6,7 +6,7 @@ body {
 
 header {
     text-align: center;
-    background-image: url('kit.jpeg'); /* Replace with the path to your image */
+    background-image: url('home.jpeg'); /* Replace with the path to your image */
     background-size: cover; /* Ensures the image covers the entire header */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
